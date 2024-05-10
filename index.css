@@ -1,0 +1,271 @@
+/* <style> */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #191d2b;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    position: fixed;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: #343b55;
+    width: 1500px;
+    margin: -100px 0px;
+    /* flex-direction: row-reverse */
+}
+
+nav ul {
+    display: flex;
+    /*to make it horizontal*/
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    /*to remove bullets*/
+    margin: 0 23px;
+    /* first number : margin from top/down, second num : margin from right/left */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #a5b6ff;
+    font-weight: bold;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0px 23px 0px;
+}
+
+.firstSection div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-color: red; */
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+}
+
+.leftSection .btn {
+    margin: 30px 0;
+    padding: 12px;
+    background-color: #191d2b;
+    cursor: -webkit-grab;
+    border: 3px solid white;
+    color: white;
+    font-size: 16px;
+    border-radius: 26px;
+
+}
+
+.leftSection .btn a {
+
+    text-decoration: none;
+    color: white;
+    cursor: -webkit-grab;
+}
+
+
+.rightSection img {
+    width: 690px;
+    margin: -53px -244px;
+    /* background-color: red; */
+}
+
+.name {
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin: 0px -2px;
+}
+
+.surname {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.hello {
+    font-size: 2rem;
+}
+
+#element {
+    color: #b0bef2;
+}
+
+.hr {
+    border: 0;
+    background: white;
+    height: 3px;
+    margin: 0px 80px;
+}
+
+.secondSection {
+    margin: -40px 130px;
+    height: 45vh;
+
+}
+
+/* .secondSection h1{
+            margin: -80px 80px;
+        } */
+.text-gray {
+    /* margin: 0px 80px; */
+    color: #b0bef2;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 51px 0px;
+    display: flex;
+}
+
+.secondSection .vertical {
+    background-color: white;
+    height: 80px;
+    width: 2px;
+    margin: 12px 116px;
+}
+
+/* .image-top {
+            width: 30px;
+            position: relative;
+            top: -50px;
+            left: 100px;
+        } */
+
+.secondSection .vertical-title {
+    position: relative;
+    top: -5px;
+    left: 35px;
+    width: 300px;
+    text-transform: uppercase;
+}
+
+.secondSection .vertical-desc {
+    position: relative;
+    top: 0px;
+    width: 200px;
+    left: 35px;
+    font-size: 12px;
+    color: #b0bef2;
+    text-transform: uppercase;
+}
+
+.secondSection .time-line {
+    position: relative;
+    top: -31px;
+    width: 90px;
+    left: -37px;
+    font-size: 12px;
+    color: #b0bef2;
+}
+
+footer {
+    background-color: #343b55;
+    height: 100px;
+
+
+}
+
+.footer {
+    display: flex;
+    /* margin: -40px 130px; */
+    justify-content: space-evenly;
+
+}
+
+.footer ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+
+
+    justify-content: space-between;
+    align-items: center;
+    /* height: 70px;
+            background-color: #343b55;
+            width: 1500px;
+            margin: -100px 0px; */
+}
+
+.footer>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer>div {
+    width: 150px;
+}
+
+.hire-me {
+    vertical-align: middle;
+    text-align: center;
+    width: 130px;
+    height: 18px;
+    position: fixed;
+    right: 65px;
+    top: 120px;
+    background: transparent;
+    border: none;
+    /* font-weight: 700; */
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text);
+    outline: none;
+    transition: all .12s cubic-bezier(.25, .46, .45, .94);
+    z-index: 90000;
+    transform: translateY(-50%) translate(-1.74359px, -4.82609px);
+}
+
+.hire-me:hover {
+    color: #a5b6ff;
+    font-weight: bold;
+}
+
+.footer-item a {
+
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 25px;
+
+}
+
+.footer-items li:not(:last-child) {
+    margin-right: 20px;
+    /* Adjust the value for desired spacing */
+}
+
+/* </style> */

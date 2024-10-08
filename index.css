@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #191d2b;
+    background-color: #090819;
     color: white;
     font-family: "Poppins", sans-serif;
 }
@@ -17,6 +17,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    /* background-color: #b0bef2; */
     background: linear-gradient(80deg, #090819 -2.9%, #343b55 77.52%, #575d73 115.85%);
     width: 1500px;
     margin: -100px 0px;
